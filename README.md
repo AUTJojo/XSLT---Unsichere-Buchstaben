@@ -1,5 +1,5 @@
 # XSLT - Unsichere-Buchstaben
-XSLT File which sets the background color for characters with an attribute >= 2 to red.
+XSLT File which sets the background color for characters with an attribute > 0 to red.
 
 ##### Important XSLT Part:
 
