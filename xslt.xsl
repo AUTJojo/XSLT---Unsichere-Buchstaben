@@ -9,7 +9,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:for-each select="root/images/image/block/paragraph/character">
     <tr>
       <xsl:choose>
-      <xsl:when test="@attr >= 2">
+      <xsl:when test="@attr > 0">
          <td bgcolor="red">
          <xsl:value-of select="@value"/>
          </td>
